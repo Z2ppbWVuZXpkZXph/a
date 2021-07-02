@@ -3,10 +3,13 @@ import os, sys, time
 from sympy.crypto.crypto import encipher_affine, decipher_affine
 from sympy.crypto.crypto import encipher_shift, decipher_shift
 
-#COLORES                                                                                                                                                GL = "\033[96;1m" # Blue aqua
+#COLORES                                                                                                                                                
+GL = "\033[96;1m" # Blue aqua
 BB = "\033[34;1m" # Blue light
-YY = "\033[33;1m" # Yellow light                                                                                                                        GG = "\033[32;1m" # Green light
-WW = "\033[0;1m"  # White light                                                                                                                         RR = "\033[31;1m" # Red light
+YY = "\033[33;1m" # Yellow light                                                                                                                        
+GG = "\033[32;1m" # Green light
+WW = "\033[0;1m"  # White light                                                                                                                         
+RR = "\033[31;1m" # Red light
 CC = "\033[36;1m" # Cyan light
 B = "\033[34m"    # Blue
 Y = "\033[33;1m"  # Yellow
